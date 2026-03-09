@@ -1,16 +1,52 @@
-# React + Vite
+#Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Project image](./images/project.webp)
 
-Currently, two official plugins are available:
+A simple finance tracker I built to monitor income, expenses, and monthly spending habits. The goal is to make it easy to record transactions and quickly see where money is going without needing a backend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+* Add transactions with **amount, category, description, and date**
+* Track **income and expenses**
+* View **monthly totals** for income, expenses, and balance
+* **Set a monthly budget** and see if spending is over or under
+* **Charts for visualization** so spending patterns are easier to understand
+* Data is saved using **localStorage**, so everything persists even after refresh
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Categories
 
-## Expanding the ESLint configuration
+The app tracks spending across common categories:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Food
+* Transport
+* Bills
+* Shopping
+* Other
+
+## Tech Used
+
+* React
+* Recharts (for charts)
+* LocalStorage for persistence
+* Simple CSS layout
+
+## Why i use the Tech stack
+
+*React is smooth and condusive for an app that renders many components and it has some cool libraries like " lucide-react and recahrts" which can be use for better visualization of numeric data
+
+*Recharts : For better visualisation of Data.
+
+*Vanilla CSS for ease styling and responsiveness
+
+## Purpose
+
+I built this as a small project to practice **state management, custom hooks, data visualization, and structuring a real-world dashboard UI** with React.
+
+The idea was to keep the logic clean while still building something that resembles a real finance dashboard.
+
+## Future Improvements
+
+* Monthly filtering for historical analytics
+* More detailed charts (pie chart, trend chart)
+* Budget progress indicators
+* Export or data backup
