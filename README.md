@@ -44,9 +44,3 @@ I built this as a small project to practice **state management, custom hooks, da
 
 The idea was to keep the logic clean while still building something that resembles a real finance dashboard.
 
-## Future Improvements
-
-* Monthly filtering for historical analytics
-* More detailed charts (pie chart, trend chart)
-* Budget progress indicators
-* Export or data backup
