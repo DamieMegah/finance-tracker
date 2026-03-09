@@ -46,3 +46,10 @@ I built this as a small project to practice **state management, custom hooks, da
 
 The idea was to keep the logic clean while still building something that resembles a real finance dashboard.
 
+##Challenges Faced :
+* 1, Time factor, i got the mail just 2 days to the deadline so it was a case of urgency for me, but thanks, past exprience, old legacy codes to readily available tools, it was possible.
+
+* 2.Using reChart, the logic  can be demanding and the rechart being in a component is firing a warning to the console, but it nothing serious.
+
+  ##Time Taken : 18hrs
+
