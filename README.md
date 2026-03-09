@@ -1,6 +1,6 @@
 #Expense Tracker
 
-![Project image](.Macbook-Air-localhost.webp)
+![Project image](./Macbook-Air-localhost.webp)
 
 A simple finance tracker I built to monitor income, expenses, and monthly spending habits. The goal is to make it easy to record transactions and quickly see where money is going without needing a backend.
 
