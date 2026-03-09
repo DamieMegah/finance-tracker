@@ -26,13 +26,14 @@ The app tracks spending across common categories:
 ## Tech Used
 
 * React + Vite
+* lucide-react
 * Recharts (for charts)
 * LocalStorage for persistence
 * Simple CSS layout
 
 ## Why i use the Tech stack
 
-*React is smooth and condusive for an app that renders many components and it has some cool libraries like " lucide-react and recahrts" which can be use for better visualization of numeric data.
+*React is smooth and condusive for an app that renders many components and it has some cool libraries like " lucide-react and recharts" which can be use for UI icons and better visualization of numeric data.
 
 *Vite was use for fast development.
 
